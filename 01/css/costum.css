@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'NeutraTextLight';
+  src: url('../font/NeutraTextLight-Bold.ttf');
+}
+@font-face {
+  font-family: 'NeutraTextLightRegular';
+  src: url('../font/NeutraTextLight-Regular.ttf');
+}
+
+body {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body.hatter {
+  font-family: "Helvetica";
+  background-color: #b2c2cf;
+  /* background: url('../img/hatter.jpg') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+li {
+    font-size: 26px;
+}
+
+p {
+  line-height: 135%;
+  font-size: 26px;
+}
+
+.galerialista {
+  line-height: 175%;
+  font-size: 26px;
+  display: block;
+  margin-left: 450px;
+}
+.galerialista2 {
+  line-height: 175%;
+  font-size: 30px;
+  display:table;
+  margin:0px auto 0px auto;
+  background-color: #b4c8dc;
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+body.iframe_tartalmak {
+  background-color: #fff;
+  font-family: "Helvetica";
+}
+
+.cim {
+    margin-bottom:80px;
+
+}
+.kepek {
+  margin-top:60px;
+}
+
+.nyitohr{
+  border-color:#b4c8db;
+}
+
+hr{
+  border-color:#b4c8db;
+}
+
+.iframehr{
+  border-color:#b4c8db;
+  width: 60%;
+}
+
+.keret {
+  border: 4px solid #b4c8dc;
+  /*-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);*/
+}
+
+.oldalcim {
+  color: #026490;
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  /*text-shadow: 4px 3px 2px #b4c8db;*/
+  margin-top: 60px;
+}
+
+.oldalcim_aloldal
+ {
+  color: #026490;
+  font-family: "Helvetica";
+
+/*  text-shadow: 4px 3px 2px #b4c8db;*/
+
+}
+
+
+h2 {
+  color:#000;
+}
+.kepekalla {
+  color:#000;
+  position: relative;
+  padding-top: 430px;
+}
+
+.kepekalla2 {
+  color:#000;
+  position: relative;
+  padding-top: 408px;
+}
+
+.szovegek {
+  position: relative;
+  margin-top: 190px;
+  margin-left: 25px;
+  background-color: #fff;
+  float: left;
+  width: 1450px;
+  height: 840px;
+}
+.menu {
+  position: relative;
+  margin-top: 190px;
+  margin-right: 25px;
+  float: right;
+  width: 325px;
+  height: 840px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.menubox{
+    
+    background-color:  #a2c753;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.activemenu, .menubox:hover {
+    background-color: #FFF;
+    color: #003660;
+}
+p, h2, h1, li{
+  font-family: "Helvetica"; 
+  color: #00355f;
+}
+
+/*
+.activemenu:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 38px solid transparent;
+    border-bottom: 38px solid transparent;
+    border-right: 25px solid #FFF;
+    position: absolute;
+    top: 0px;
+    left: -25px;
+}
+*/
+.fomenulink {
+  width: 100%;
+  height:40px;
+  background-color: #b4c8dc;
+  color: #9ccd39;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.galleriaklink {
+  width: 100%;
+  height:40px;
+
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+
+.nyelvvalaszto {
+  width: 100%;
+  height:40px;
+  background-color: #236490;
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+ a:active{
+   color: #FFF;
+   text-decoration: none;
+ }
+
+ a:visited{
+   color: #FFF;
+   text-decoration: none;
+ }
+
+ a:hover{
+   color: #FFF;
+   text-decoration: none;
+ }
+
+
+
+
+
+
+a.masodlagoslink {
+  color: #236490;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+a.linkszoveg{
+    color: #ff5454;
+}
+
+iframe {
+  margin-top:15px;
+  margin-left:15px;
+  height: 815px;
+  width: 1420px;
+  ::-webkit-scrollbar: #000;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #9c9b9b;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  background: #236490;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #ad462d;
+  text-decoration: none;
+}
+
+.kozep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.szovegkep {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: #b4c8dc;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#crossfade > img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    -o-animation: imageAnimation 30s linear infinite 0s;
+    -ms-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+#crossfade > img:nth-child(3) {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+#crossfade > img:nth-child(4) {
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s;
+}
+#crossfade > img:nth-child(5) {
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s;
+}
+
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/costum.css">
+        <style type="text/css">
+            body {
+                background: url("img/background_zold.jpg");
+                background-color: #b2c2cf;
+            }
+            #vissza{
+                position: fixed;
+                width: 200px;
+                height: 170px;
+                margin: 0px 0 0 0;
+                top:0px;
+            }
+            
+            #home{
+                position: fixed;
+                right: 0;
+                width: 300px;
+                height: 170px;
+            }
+            .szovegek{
+                width:1855px;
+            }
+            .tarto{
+                margin-top: 200px;
+                margin-left: 20px;
+                margin-right:20px;
+                background-color: white;
+                height: 860px;
+            }
+            .felkover{
+                font-weight: bold;
+            }
+            p, li{
+                padding-left: 15px;
+                padding-top: 15px;
+                text-align: justify;
+            }
+            li{
+                padding-right: 100px;
+            }
+            .hatter{
+                position: absolute;
+                top:0px;
+                left: 0px;
+                margin:0px;
+                padding: 0px;
+            }
+            .hoeromu{
+                position: absolute;
+                width: 450px;
+                height: 450px;
+                top: 500px;
+                left: 650px;
+            }
+            .atomeromu{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 320px;
+                left: 100px;
+            }
+            .fosszilis{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 320px;
+                left: 350px;
+            }
+            .kommunalis{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 650px;
+                left: 100px;
+            }
+            .alternativ{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 650px;
+                left: 350px;
+            }
+            .hoszallito{
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                top: 430px;
+                left: 1130px;
+            }
+            .hoelosztas{
+                position: absolute;
+                width: 270px;
+                height: 270px;
+                top: 650px;
+                left: 1450px;
+            }
+            .hofelhasznalas{
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                top: 280px;
+                left: 1550px;
+            }
+            
+            /* #245378 */
+            
+        </style>
+        <title>Tartalom</title>
+    </head>
+    <body class="hatter">
+        <a href="index.html"><div id="vissza"></div></a>
+            <img src="img/rajz.jpg"></a>
+            <a href="A1-2.html"><div class="hoeromu"></div></a>
+            <a href="A3-1.html"><div class="atomeromu"></div></a>
+            <a href="A3-2.html"><div class="fosszilis"></div></a>
+            <a href="A3-3.html"><div class="kommunalis"></div></a>
+            <a href="A3-4.html"><div class="alternativ"></div></a>
+            <a href="B.html"><div class="hoszallito"></div></a>
+            <a href="C.html"><div class="hoelosztas"></div></a>
+            <a href="D.html"><div class="hofelhasznalas"></div></a>
+        <script src="js/jquery-3.1.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script>
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myDIV");
+            var btns = header.getElementsByClassName("menubox");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("activemenu");
+                    current[0].className = current[0].className.replace(" activemenu", "");
+                    this.className += " activemenu";
+                });
+            }
+        </script>
+        
+    </body>
+</html>

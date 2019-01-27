@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Hangyaboly;
+    src: url(hangyaboly.ttf);
+}
+
+html { padding-left: 10px; overflow: hidden; }
+.clearFix { float: left; width: 100%; height: 30px; }
+nav ul { list-style:none; }
+/*p { margin: 0; padding: 0; }*/
+p { margin: 50px auto 0 auto; padding: 0; width: 1600px; }
+ul { list-style: none; }
+ol { margin: 0; padding: 10px 0; list-style: none; font-size: 55px; text-align: center; color: #00355f; font-family: "Hangyaboly"; }
+ol li { padding: 10px 0 !important; float: left; }
+.carousel-disabled { opacity: .4 }
+.col-1 { padding: 0 30px; margin: 0; }
+.prev, .next { display: block; text-indent: -9999px; }
+.prev { background: url('../img/arrow2.png'); z-index: 100; }
+.next { background: url('../img/arrow2.png'); z-index: 100; transform: rotate(180deg); }
+
+.prev:hover, .next:hover { border: none !important; }
+.slidewrap h3 { margin: 0; padding: 0 0 10px 30px; }
+
+.tudtadegyerek { float: left; position: relative; top: 200px; left: 0px; width: 1900px; }
+.tudtadegyerek .slidewrap { border: 0px solid #deddde; overflow: hidden !important; position: relative; }
+.tudtadegyerek .prev, .tudtadegyerek .next { float: left; position: absolute; top: 50%; margin: -185px -100px 0 -100px; width: 100px; height: 187px; display: block; }
+.tudtadegyerek .prev { left: 135px; top: 95% }
+.tudtadegyerek .next { right: 135px; top: 95%; }
+
+.tudtadefelnott { float: left; position: relative; top: 300px; left: 0px; width: 1900px; }
+.tudtadefelnott .slidewrap { border: 0px solid #deddde; overflow: hidden !important; position: relative; }
+.tudtadefelnott .prev, .tudtadefelnott .next { float: left; position: absolute; top: 50%; margin: -185px -100px 0 -100px; width: 100px; height: 187px; display: block; }
+.tudtadefelnott .prev { left: 135px; top: 69% }
+.tudtadefelnott .next { right: 135px; top: 69%; }
+
+#tudtade{position: absolute; top:300px; width: 99%; text-align: center; font-size: 80px; color: #00355f; }

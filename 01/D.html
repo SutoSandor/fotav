@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/costum.css">
+        <style type="text/css">
+            body {
+                background: url("img/background_d.png");
+                background-color: #b2c2cf;
+            }
+            #vissza{
+                position: fixed;
+                width: 200px;
+                height: 170px;
+                margin: 0px 0 0 0;
+            }
+            
+            #home{
+                position: fixed;
+                right: 0;
+                width: 300px;
+                height: 170px;
+            }
+            
+            
+            /* #245378 */
+            
+        </style>
+        <title>Tartalom</title>
+    </head>
+    <body class="hatter">
+        <a href="index2.html"><div id="vissza"></div></a>
+        <a href="../index.html"><div id="home"></div></a>
+        <div class="tarto">
+            <div class="tartalom">
+                <div class="szovegek">
+                    <iframe src="D-1.html" frameborder="0" name="tartalmak"></iframe>
+                </div>
+
+                <div class="menu" id="myDIV">
+                    <a href="D-1.html" target="tartalmak"><div class="menubox activemenu">Lakások</div></a>
+                    <a href="D-2.html" target="tartalmak"><div class="menubox">Közületi</div></a>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-3.1.1.slim.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script>
+            // Add active class to the current button (highlight it)
+            var header = document.getElementById("myDIV");
+            var btns = header.getElementsByClassName("menubox");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function() {
+                    var current = document.getElementsByClassName("activemenu");
+                    current[0].className = current[0].className.replace(" activemenu", "");
+                    this.className += " activemenu";
+                });
+            }
+        </script>
+        
+    </body>
+</html>
